@@ -1,3 +1,11 @@
+/*GARBAGE RECYCLER 1.0
+* APLICACION DE ESCRITORIO EN JAVA DONDE EL USUARIO INTERACTUA CON EL ENTORNO SELECCIONANDO IMAGENES QUE PERTENEZCAN
+A UN TIPO DE BASURA
+* AUTORES: CASTAÃ‘ON PUGA MANUEL, RAYGOZA DE LA PAZ BRANDON, LIZARRAGA RODRIGUEZ JESUS ALBERTO, MALDONADO MIGUEL GILBERTO
+* CORREO ELECTRONICO: {puga, raygoza.brandon, jlizarraga73,gilberto.maldonado.miguel}@uabc.edu.mx
+* UNIVERSIDAD AUTONOMA DE BAJA CALIFORNIA
+http://www.uabc.mx
+*/
 package Interfaz;
 
 import static java.lang.System.exit;
@@ -88,7 +96,7 @@ public class Interfaz {
 		//String tempPath;
 		//MenuItem tempItem;
 		
-		//String preguntas[]= {"Orgánico","Metálico","Vidrio","Papel","Plastico"};
+		//String preguntas[]= {"Orgï¿½nico","Metï¿½lico","Vidrio","Papel","Plastico"};
 		
 		ImageView[]ImVi=new ImageView[5];
 		Imagenes.Creador_ImaView(ImVi);
@@ -476,7 +484,7 @@ public class Interfaz {
 		//JuegoScreen = new Scene(Juego(primaryStage));
 		MenuScreen = new Scene(Menu(primaryStage));
 		//ScoreScreen = new Scene(Scores(primaryStage));
-		primaryStage.setTitle("Garbage Recycler");
+		primaryStage.setTitle("Scrap Boy");
 		primaryStage.initStyle(StageStyle.UNDECORATED);
 		primaryStage.setScene(MenuScreen);
 		primaryStage.show();
